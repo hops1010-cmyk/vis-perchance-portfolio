@@ -1,0 +1,15 @@
+{
+  "name": "vis-perchance-portfolio",
+  "version": "1.0.0",
+  "description": "VISTAMATIONS Perchance Portfolio — embedded Perchance generators with dynamic embed pages, static portfolio, and Vercel deployment.",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node server.js",
+    "start": "node server.js",
+    "preview": "node server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
