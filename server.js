@@ -76,7 +76,7 @@ const server = http.createServer((request, response) => {
     return;
   }
 
-  const staticMatch = /^([a-z0-9-]+\.html)$/.exec(urlPath);
+  const staticMatch = /^\/([a-z0-9-]+\.html)$/.exec(urlPath);
   if (staticMatch && staticPages.has(staticMatch[1])) {
     const filePath = path.join(__dirname, staticMatch[1]);
     fs.readFile(filePath, (error, content) => {
