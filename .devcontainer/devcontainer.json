@@ -15,6 +15,5 @@
   },
   "forwardPorts": [3006],
   "postCreateCommand": "npm install",
-  "runChangesCommand": "",
-  "runCommand": "npm start"
+  "postStartCommand": "npm start"
 }
